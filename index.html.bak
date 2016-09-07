@@ -13,7 +13,7 @@
     <div class="container" id="cv">
         <div class="side">
             <div class="me">
-                <div class="portrait" style="background-image: url(&quot;static/image/avatar.jpg&quot;);"></div>
+                <div class="portrait" style="background-image: url(&quot;file://D:/我的资料/ID_images/avatar.jpg&quot;);"></div>
                 
                 <h1 id="username" contenteditable="true">ekCit</h1>
                 <h4 id="persona-tag" contenteditable="true">Python / Web / 互联网教育</h4>
