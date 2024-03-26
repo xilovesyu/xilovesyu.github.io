@@ -1,0 +1,37 @@
+.page-nav-space-holder {
+    height: 60px;
+    position: sticky;
+    top: 0;
+    background: #007888;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    z-index: 2;
+}
+
+.page-nav-wrapper {
+    padding: 20px 0 20px 0;
+}
+
+.page-nav-wrapper .page-nav {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.page-nav-wrapper .page-nav li {
+    margin-right: 30px;
+    background: none;
+}
+
+.page-nav-wrapper .page-nav li button {
+    background-color: transparent;
+    border: none;
+    color: hsla(0, 0%, 100%, .6);
+    padding: inherit;
+}
+
+.page-nav-wrapper .page-nav li button:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
