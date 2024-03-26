@@ -1,0 +1,39 @@
+.education-section .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.education-section .item {
+    margin-bottom: 45px;
+    display: inline-block;
+    text-align: left;
+}
+
+.education-section .item-inner {
+    padding: 0 30px;
+}
+
+.education-section .degree {
+    font-size: 18px;
+    color: #00bcd4;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.education-section .education-body {
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.education-section .time {
+    color: #8a8a8a;
+    margin-bottom: 15px;
+}
+
+.education-section .desc {
+    color: #666;
+}

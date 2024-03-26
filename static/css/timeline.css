@@ -1,0 +1,87 @@
+
+
+.timeline {
+    border-left: 3px solid #00bcd4;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
+    padding: 0 30px;
+    margin-left: 280px;
+}
+
+.timeline .item {
+    position: relative;
+    margin-bottom: 45px;
+}
+.timeline .item:after, .timeline .item:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+}
+.timeline .item:before {
+    left: -46px;
+    top: -3px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #fff;
+    border: 3px solid #00bcd4;
+}
+
+.timeline .item:after {
+    left: -37px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #00bcd4;
+}
+
+.timeline .item:after, .timeline .item:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+}
+.timeline .work-place {
+    position: relative;
+}
+.timeline .place {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.timeline .location {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    color: #8a8a8a;
+}
+.timeline .location .fa {
+    margin-right: 5px;
+}
+
+.timeline .job-meta {
+    position: absolute;
+    left: -280px;
+    top: 0;
+}
+
+.timeline .job-meta .title {
+    font-size: 18px;
+    color: #00bcd4;
+}
+
+.timeline .job-meta .time {
+    color: #8a8a8a;
+}
+
+.timeline .job-desc {
+    color: #666;
+}

@@ -1,0 +1,138 @@
+body {
+    font-family: Roboto, sans-serif;
+    color: #666;
+    background: #f5f5f5;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+a {
+    color: #00bcd4;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #007888
+}
+
+a:focus {
+    text-decoration: none
+}
+
+p {
+    line-height: 1.5
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 10px
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa-linkedin:before {
+    content: "\F0E1";
+}
+
+.fa-github-alt:before {
+    content: "\F113";
+}
+
+.fa-map-marker:before {
+    content: "\F041";
+}
+
+.fa-envelope:before {
+    content: "\F0E0";
+}
+
+.fa-phone:before {
+    content: "\F095";
+}
+
+.fa-globe:before {
+    content: "\F0AC";
+}
+
+.btn,
+a.btn {
+    background: #008fa1;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .4);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn:hover,a.btn:hover {
+    color: #fff;
+    background: #00a5bb
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+section {
+    display: block;
+}
+
+.section {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .14);
+    padding: 45px;
+    background: #fff;
+    margin-bottom: 45px;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-size: 24px;
+    text-align: center;
+}

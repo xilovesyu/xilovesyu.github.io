@@ -1,0 +1,55 @@
+# 忽略日志和缓存文件
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.puppeteer-cache
+
+# 忽略IDE和编辑器产生的临时和配置文件
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*.suo
+*.user
+*.DS_Store
+thumbs.db
+desktop.ini
+
+# 忽略编译输出和依赖文件
+dist/
+build/
+node_modules/
+coverage/
+
+# 忽略特定的IDE配置文件
+.eclipse/
+.project
+.classpath
+
+# 忽略package-lock.json或yarn.lock在某些情况下（比如仅希望在生产环境中锁定依赖）
+package-lock.json
+yarn.lock
+
+# 如果你使用TypeScript，忽略编译产物
+*.js
+*.map
+
+# 若使用Python，忽略.pyc和__pycache__
+**/*.pyc
+__pycache__
+
+# 其他自定义规则
+temp*
+
+# 自定义匹配规则举例，忽略所有的.env文件，这些文件通常包含敏感环境变量信息
+.env
+
+# 若项目中有私钥和证书等敏感文件
+private.key
+*.pem
+
+# 如果你的项目包含Git submodule
+.gitmodules

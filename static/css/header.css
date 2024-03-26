@@ -1,0 +1,100 @@
+.header {
+    background: #00bcd4;
+}
+
+.header,
+.header a {
+    color: #fff;
+}
+
+.header .top-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 120px;
+}
+
+.social {
+    display: flex;
+    flex: row;
+}
+
+.header .social a {
+    color: hsla(0, 0%, 100%, .8);
+    display: inline-block;
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 0;
+    font-size: 16px;
+    border: 2px solid hsla(0, 0%, 100%, .8);
+    line-height: 28px;
+}
+
+.header .intro {
+    background: #00a5bb;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    font-size: 16px;
+    position: relative;
+}
+
+.header .container {
+    margin: 0 auto;
+}
+
+
+.header .profile-image {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    top: -80px;
+    margin-left: -80px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.header .name {
+    font-size: 48px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    margin: 16px 0 16px 0;
+}
+
+.header .title {
+    font-size: 28px;
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, .8);
+    margin-bottom: 30px;
+}
+
+.header .profile {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header .contact-info {
+    background: #008fa1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+.header .contact-info ul {
+    margin-bottom: 0;
+}
+
+.header .contact-info ul li {
+    margin-right: 30px;
+    color: hsla(0, 0%, 100%, .8);
+}
+
+.header .contact-info li .fa {
+    margin-right: 10px;
+}
