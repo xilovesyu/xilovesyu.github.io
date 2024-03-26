@@ -34,7 +34,7 @@ package-lock.json
 yarn.lock
 
 # 如果你使用TypeScript，忽略编译产物
-*.js
+# *.js
 *.map
 
 # 若使用Python，忽略.pyc和__pycache__
