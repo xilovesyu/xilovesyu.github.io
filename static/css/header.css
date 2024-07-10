@@ -11,14 +11,14 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
     position: relative;
     padding-top: 15px;
-    padding-bottom: 120px;
+    padding-bottom: 60px;
 }
 
 .social {
     display: flex;
-    flex: row;
 }
 
 .header .social a {
@@ -37,10 +37,17 @@
     line-height: 28px;
 }
 
+.header .header-actions {
+    padding-right: 10px;
+}
+.header .header-actions a {
+    margin: 0 5px;
+}
+
 .header .intro {
     background: #00a5bb;
     padding-top: 90px;
-    padding-bottom: 60px;
+    padding-bottom: 16px;
     font-size: 16px;
     position: relative;
 }
@@ -71,7 +78,7 @@
     font-size: 28px;
     font-weight: 300;
     color: hsla(0, 0%, 100%, .8);
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 
 .header .profile {
